@@ -24,7 +24,7 @@ In `src/app.module.ts` set `connectionLimit` to a value lower than 15, e.g.:
 
 ```ts
 extra: {
-  connectionLimit: 10,
+  connectionLimit: 5,
 },
 ```
 
